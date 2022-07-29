@@ -1,0 +1,9 @@
+html, body{
+    min-height: 100%;
+    overflow: auto;
+}
+
+body{
+    height: 100vh;
+    font-size: 14px;
+}
