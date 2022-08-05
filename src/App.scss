@@ -1,10 +1,33 @@
+$purple: #c28cae;
+$dark-green: #475841;
+$sage: #7e998a;
+$onyx: #272525;
+
 .App {
     text-align: left;
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    color: #272525;
-    background-color: #F8F8F8;
+    color: $onyx;
+    background-color: #fff;
     min-height: 100%;
     width: 100%;
+}
+
+.header {
+    max-height: 200px;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $purple;
+    font-size: 16px;
+    font-weight: bold;
+
+    a {
+        color: $purple;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
 }

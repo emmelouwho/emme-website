@@ -1,12 +1,30 @@
-import header from './images/header.svg'
 import './App.scss';
-import Tabs from './headerTabs';
+import AboutMe from './aboutMe';
+import Resume from './resume';
+import Home from './home';
+import Header from './header';
+import { Route, Switch, Redirect } from 'react-router-dom';
+
+//how to get base for paths
 
 function App() {
     return (
         <div className="App">
-            <img src={header} className="header-svg" alt="header" />
-            <Tabs/>
+            <Header />
+            <Switch>
+                <Route exact path="/">
+                    <Redirect to="/home" />
+                </Route>
+                <Route path="/home">
+                    <Home />
+                </Route>
+                <Route path="/about-me">
+                    <AboutMe />
+                </Route>
+                <Route path="/resume">
+                    <Resume />
+                </Route>
+            </Switch>
         </div>
     );
 }

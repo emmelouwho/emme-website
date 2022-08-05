@@ -1,9 +1,10 @@
-html, body{
+html,
+body {
     min-height: 100%;
     overflow: auto;
 }
 
-body{
+body {
     height: 100vh;
     font-size: 14px;
 }
