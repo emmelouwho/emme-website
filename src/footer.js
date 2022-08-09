@@ -8,7 +8,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer">
-                <hr class="solid" />
+                <hr className="solid" />
 
                 <div className="footer-buttons">
                     <ButtonMailto

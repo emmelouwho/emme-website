@@ -1,6 +1,6 @@
 import './App.scss';
 import AboutMe from './aboutMe';
-import Resume from './resume';
+import Resume from './resumePage/resume';
 import Home from './home';
 import Header from './header';
 import Footer from './footer';
