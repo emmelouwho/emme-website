@@ -7,9 +7,12 @@ import ButtonMailto from './mailButton';
 class Home extends React.Component {
     render() {
         return (
-            <div className='home'>
-                <div className='title'>
-                    <p>hello, my name is emme and i am a junior computer student at ut austin. </p>
+            <div className="home">
+                <div className="title">
+                    <p>
+                        hello, my name is emme and i am a junior computer
+                        student at ut austin.{' '}
+                    </p>
                 </div>
                 {/* <div className='intro'>
                     <div className='text'>

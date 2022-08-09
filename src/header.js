@@ -20,6 +20,8 @@ const TabContainer = styled.div`
 function Header() {
     return (
         <div className="header">
+            {/* <img className='flower' src={flower}></img>
+            <span>emme erwin</span> */}
             <TabContainer>
                 <NavLink to="/home">home</NavLink>
                 <NavLink to="/about-me">about me</NavLink>
